@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20140AB41B98928C009B6ED4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20140AB31B98928C009B6ED4 /* CircleView.swift */; };
+		204AF5FE1B99E4BF00951211 /* NumSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204AF5FD1B99E4BF00951211 /* NumSlider.swift */; };
+		204AF6001B99EC5D00951211 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204AF5FF1B99EC5D00951211 /* CardView.swift */; };
+		204AF6021B99FDB100951211 /* CardViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204AF6011B99FDB100951211 /* CardViewContainer.swift */; };
 		20A379711B9835B6002CDB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A379701B9835B6002CDB2D /* AppDelegate.swift */; };
 		20A379731B9835B6002CDB2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A379721B9835B6002CDB2D /* ViewController.swift */; };
 		20A379761B9835B6002CDB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A379741B9835B6002CDB2D /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20140AB31B98928C009B6ED4 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		204AF5FD1B99E4BF00951211 /* NumSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumSlider.swift; sourceTree = "<group>"; };
+		204AF5FF1B99EC5D00951211 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		204AF6011B99FDB100951211 /* CardViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewContainer.swift; sourceTree = "<group>"; };
 		20A3796B1B9835B6002CDB2D /* CardsAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A3796F1B9835B6002CDB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A379701B9835B6002CDB2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 				20A379771B9835B6002CDB2D /* Images.xcassets */,
 				20A379791B9835B6002CDB2D /* LaunchScreen.xib */,
 				20A3796E1B9835B6002CDB2D /* Supporting Files */,
+				20140AB31B98928C009B6ED4 /* CircleView.swift */,
+				204AF5FD1B99E4BF00951211 /* NumSlider.swift */,
+				204AF5FF1B99EC5D00951211 /* CardView.swift */,
+				204AF6011B99FDB100951211 /* CardViewContainer.swift */,
 			);
 			path = CardsAnimation;
 			sourceTree = "<group>";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204AF6021B99FDB100951211 /* CardViewContainer.swift in Sources */,
 				20A379731B9835B6002CDB2D /* ViewController.swift in Sources */,
+				204AF5FE1B99E4BF00951211 /* NumSlider.swift in Sources */,
 				20A379711B9835B6002CDB2D /* AppDelegate.swift in Sources */,
+				20140AB41B98928C009B6ED4 /* CircleView.swift in Sources */,
+				204AF6001B99EC5D00951211 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				20A3798C1B9835B6002CDB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A3798D1B9835B6002CDB2D /* Build configuration list for PBXNativeTarget "CardsAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				20A3798F1B9835B6002CDB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
