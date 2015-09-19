@@ -26,8 +26,8 @@ class NumSlider: UIScrollView {
             let label = UILabel(frame: CGRectMake(0, height * CGFloat(i), width, height))
             label.text = "\(i)"
             //label.backgroundColor = UIColor.whiteColor()
-            label.textColor = UIColor.blackColor()
-            label.font = UIFont.systemFontOfSize(20)
+            label.textColor = UIColor.grayColor()
+            label.font = UIFont.systemFontOfSize(22)
             label.textAlignment = .Center
 //            label.layer.borderWidth = 0
 //            label.layer.borderColor = UIColor.whiteColor().CGColor
